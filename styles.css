@@ -1,8 +1,8 @@
 :root {
-  --ink: #102426;
-  --deep: #03151b;
-  --teal: #0b3a3f;
-  --green: #4a6f60;
+  --ink: #10233d;
+  --deep: #071a33;
+  --teal: #0f2e4a;
+  --green: #425f72;
   --gold: #d9a24a;
   --copper: #a85f3e;
   --paper: #f7f0e5;
@@ -71,7 +71,7 @@ a {
   color: var(--deep);
   background: var(--gold);
   border-radius: 50%;
-  font-size: 13px;
+  font-size: 11px;
   font-weight: 900;
 }
 
