@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1584" height="396" viewBox="0 0 1584 396">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#03151b"/>
-      <stop offset="0.55" stop-color="#071f28"/>
-      <stop offset="1" stop-color="#0b2730"/>
+      <stop offset="0" stop-color="#071a33"/>
+      <stop offset="0.55" stop-color="#0b2240"/>
+      <stop offset="1" stop-color="#0f2e4a"/>
     </linearGradient>
     <radialGradient id="vignette" cx="45%" cy="50%" r="75%">
       <stop offset="0" stop-color="#000000" stop-opacity="0"/>
@@ -31,7 +31,7 @@
   </g>
 
   <g transform="translate(1260 66)" filter="url(#softShadow)">
-    <rect width="205" height="264" rx="2" fill="#041218" stroke="#d9a24a" stroke-opacity="0.82" stroke-width="2"/>
+    <rect width="205" height="264" rx="2" fill="#071a33" stroke="#d9a24a" stroke-opacity="0.82" stroke-width="2"/>
     <g transform="translate(102.5 106)">
       <g stroke-linecap="round">
         <line x1="0" y1="-35" x2="0" y2="-86" stroke="#d9a24a" stroke-opacity="0.68" stroke-width="2"/>
