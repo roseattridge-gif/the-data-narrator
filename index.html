@@ -211,19 +211,31 @@
             The Bridge, the Canvas and the craft of making data heard.
           </p>
         </div>
-        <form class="signup-form" data-signup-form>
-          <label>
-            <span>Name</span>
-            <input name="name" type="text" autocomplete="name" placeholder="Your name" />
-          </label>
+        <form
+          action="https://app.kit.com/forms/9690782/subscriptions"
+          class="signup-form kit-signup formkit-form"
+          method="post"
+          data-sv-form="9690782"
+          data-uid="6392e0bb56"
+          data-format="inline"
+          data-version="5"
+        >
+          <ul class="formkit-alert formkit-alert-error" data-element="errors" data-group="alert"></ul>
           <label>
             <span>Email</span>
-            <input name="email" type="email" autocomplete="email" placeholder="you@example.com" required />
+            <input
+              class="formkit-input"
+              name="email_address"
+              type="email"
+              autocomplete="email"
+              placeholder="you@example.com"
+              required
+            />
           </label>
-          <button class="button primary" type="submit">Create email</button>
-          <p class="form-note" data-form-note>
-            This opens an email draft so the static GitHub Pages site can work without a backend.
-          </p>
+          <button class="button primary formkit-submit" data-element="submit" type="submit">
+            <span>Join the launch list</span>
+          </button>
+          <p class="form-note">You'll get launch news and early notes from Rose. No noise.</p>
         </form>
       </section>
     </main>
@@ -233,6 +245,7 @@
       <a href="#top">Back to top</a>
     </footer>
 
+    <script src="https://f.convertkit.com/ckjs/ck.5.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
