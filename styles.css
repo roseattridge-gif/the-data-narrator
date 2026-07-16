@@ -485,6 +485,23 @@ h3 {
   font: inherit;
 }
 
+.signup-form .button span {
+  display: inline;
+}
+
+.formkit-alert {
+  display: none;
+  margin: 0;
+  padding: 0;
+  color: #9c2f2f;
+  list-style: none;
+}
+
+.formkit-alert:not(:empty) {
+  display: grid;
+  gap: 6px;
+}
+
 .form-note {
   margin: 0;
   color: rgba(16, 36, 38, 0.62);
