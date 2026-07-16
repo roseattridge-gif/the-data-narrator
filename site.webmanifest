@@ -1,0 +1,16 @@
+{
+  "name": "The Data Narrator",
+  "short_name": "Data Narrator",
+  "description": "The upcoming book from Rose Attridge for people ready to make data heard.",
+  "start_url": "/",
+  "display": "minimal-ui",
+  "background_color": "#07111f",
+  "theme_color": "#07111f",
+  "icons": [
+    {
+      "src": "/assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
